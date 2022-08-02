@@ -1,0 +1,23 @@
+{
+  "name": "desafio-sass",
+  "version": "1.0.0",
+  "description": "Desafío aplicando Sass para el curso de Desarrollo web de Coder House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloBriasco/desafio-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloBriasco/desafio-sass/issues"
+  },
+  "homepage": "https://github.com/PabloBriasco/desafio-sass#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
