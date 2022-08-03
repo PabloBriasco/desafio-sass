@@ -1,6 +1,7 @@
 // Colores
 
 $links: red;
+$letraCar: blue;
 $fondoNomPag: #31A87D;
 $backgroundWS: whitesmoke;
 $colorNomPag: #AD3319;
@@ -56,6 +57,11 @@ $opac80: 80%;
 
 // Bordes
 
+// Anchos
+
+$anchoBorde1 : 10px;
+$anchoBorde2: $anchoBorde1/2;
+
 $radio10: 10px;
 $radio20: 20px;
 
@@ -69,3 +75,8 @@ $animacTime: 2s;
 // Nav
 $margenNav: 5px 0;
 $paddingNavLi: 10px 20px;
+
+// Wrappers
+
+$paddingWrapper: 0 2%;
+$gapWrapper: 10px 30px;

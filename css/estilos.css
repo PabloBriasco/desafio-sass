@@ -5,6 +5,33 @@ a:link, a:visited, a:active {
   color: red;
   text-decoration: none; }
 
+body {
+  background: url(../media/site-background.png) no-repeat fixed center top;
+  background-size: 100% 100%; }
+
+header {
+  grid-area: header; }
+
+nav {
+  grid-area: navi; }
+
+.titulo {
+  grid-area: titulo; }
+
+main {
+  grid-area: main; }
+
+aside, .openings {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (max-width: 630px) {
+    aside, .openings {
+      display: none; } }
+
+footer {
+  grid-area: footer; }
+
 /* Fuentes de texto */
 .fuente1 {
   font-family: Libre Baskerville, serif;
@@ -43,3 +70,180 @@ a:link, a:visited, a:active {
   font-size: 200%;
   text-align: center;
   text-decoration: underline; }
+
+@media screen and (max-width: 768px) {
+  .fuente1 {
+    font-family: Libre Baskerville, serif;
+    font-size: medium; }
+  .fuente2 {
+    font-size: 100%; }
+  .fuente4 {
+    font-size: 300%; }
+  .fuente5 {
+    font-size: 15px; }
+  .fuente6 {
+    font-size: medium;
+    line-height: 25px;
+    letter-spacing: 0.5px; }
+  .fuente7 {
+    font-size: 100%; } }
+
+@media screen and (max-width: 531px) {
+  .fuente1 {
+    font-family: Libre Baskerville, serif;
+    font-size: medium; }
+  .fuente4 {
+    font-size: 300%; }
+  .fuente5 {
+    font-size: 10px; }
+  .fuente6 {
+    font-size: small;
+    line-height: 15px;
+    letter-spacing: 0.25px; }
+  .fuente7 {
+    font-size: 100%; } }
+
+#banner {
+  width: 100%;
+  height: 300px;
+  animation-duration: 2s; }
+
+h1 {
+  margin: 8%;
+  background-color: #31A87D;
+  opacity: 90%;
+  border-radius: 10px; }
+  h1 span {
+    text-emphasis: triangle;
+    text-decoration: solid underline; }
+
+@media screen and (max-width: 768px) {
+  #banner {
+    height: 150px; }
+  h1 {
+    margin: 20px; } }
+
+@media screen and (max-width: 531px) {
+  #banner {
+    height: 100px; }
+  h1 {
+    margin: 10px; } }
+
+.navList {
+  height: 100%;
+  align-items: center;
+  margin: 5px 0;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style: none;
+  opacity: 80%;
+  border-radius: 10px;
+  padding: 0; }
+  .navList li {
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: Libre Baskerville, serif;
+    font-size: larger;
+    border-width: 5px;
+    margin: 0;
+    transition-duration: 0.5s;
+    border-radius: 20px; }
+    .navList li:hover {
+      background-color: #14c8dc;
+      transform: scale(1.2);
+      opacity: 100%; }
+
+@media screen and (max-width: 935px) {
+  /* modificador del Nav */
+  .navList {
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  .navList {
+    height: auto;
+    margin-left: 12%;
+    margin-right: 11%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
+    .navList li {
+      padding: 5px 10px;
+      font-size: larger; } }
+
+@media screen and (max-width: 630px) {
+  .navList {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; } }
+
+@media screen and (max-width: 531px) {
+  .navList {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr fr; }
+    .navList li {
+      font-size: smaller; } }
+
+.titulo {
+  margin: 4%;
+  border-radius: 20px;
+  border-style: groove;
+  background-color: #a8dada;
+  border-color: orangered;
+  opacity: 80%; }
+
+.wrapperIndex {
+  padding: 0 2%;
+  display: grid;
+  grid-template-areas: "navi header header" "navi header header" "navi header header" "car car car" "car car car" "titulo titulo titulo" "main main aside" "main main aside" "footer footer footer";
+  gap: 10px 30px; }
+
+.fuenteCar {
+  color: blue;
+  background-color: whitesmoke;
+  opacity: 90%;
+  border-radius: 20px; }
+
+.widthCar {
+  width: 100%;
+  max-height: 673px; }
+
+#sinopsis {
+  margin: 6% 6%;
+  background-color: whitesmoke;
+  border-style: double;
+  border-color: orange;
+  border-width: 10px;
+  border-radius: 20px; }
+
+.openings {
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+@media screen and (max-width: 935px) {
+  .wrapperIndex {
+    grid-template-areas: "navi header header header" "car car car car" "titulo titulo titulo titulo"             "main main main main" "aside aside aside aside" "footer footer footer footer"; }
+  .widthCar {
+    width: 100%;
+    max-height: 400px; } }
+
+@media screen and (max-width: 630px) {
+  .wrapperIndex {
+    grid-template-areas: "header" "navi" "titulo" "main"        "footer"; } }
+
+@media screen and (max-width: 531px) {
+  #sinopsis {
+    margin: 0; } }
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: royalblue;
+  border-radius: 20px; }
+  footer p {
+    padding-left: 5px; }

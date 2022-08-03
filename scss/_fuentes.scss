@@ -44,3 +44,61 @@
     text-align: center;
     text-decoration: underline;
 }
+
+// Media Queries
+
+@media screen and (max-width: 768px) {
+
+    .fuente1 {
+        font-family: Libre Baskerville, serif;
+        font-size: medium;
+    }
+    
+    .fuente2{
+        font-size: 100%;
+    }
+
+    .fuente4 {        
+        font-size: 300%;       
+    }
+    
+    .fuente5 {
+        font-size: 15px;
+    }
+    
+    .fuente6 {
+        font-size: medium;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+    }
+    
+    .fuente7{
+        font-size: 100%;
+    }   
+}
+
+@media screen and (max-width: 531px) {
+
+    .fuente1 {
+        font-family: Libre Baskerville, serif;
+        font-size: medium;
+    }
+    
+    .fuente4 {        
+        font-size: 300%;       
+    }
+    
+    .fuente5 {
+        font-size: 10px;
+    }
+    
+    .fuente6 {
+        font-size: small;
+        line-height: 15px;
+        letter-spacing: 0.25px;
+    }
+    
+    .fuente7{
+        font-size: 100%;
+    }
+}

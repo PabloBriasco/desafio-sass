@@ -1,5 +1,6 @@
 // Estilo del Nav
 
+
 .navList {
     height: 100%;
     align-items: center;
@@ -32,12 +33,14 @@
     }
 }
 
+// Media Queries
+
 @media screen and (max-width: 935px){
 
     /* modificador del Nav */
 
     .navList {
-        margin: $margenNav*0;
+        margin: 0;
     }
 }
 
@@ -53,7 +56,7 @@
         align-content: center;     
         
         li {
-            padding: $paddingNavLi/2;
+            padding: 5px 10px;
             font-size: $fuenteGrande;        
         }
     }
