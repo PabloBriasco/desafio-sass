@@ -9,6 +9,17 @@ body {
   background: url(../media/site-background.png) no-repeat fixed center top;
   background-size: 100% 100%; }
 
+/* Modificadores de texto */
+.subtitulo {
+  border-bottom: solid; }
+
+.subtitulo2 {
+  border-bottom: black double; }
+
+.subtitulo3 {
+  border-bottom: white solid;
+  border-width: 5px; }
+
 header {
   grid-area: header; }
 
@@ -272,6 +283,33 @@ h1 {
 @media screen and (max-width: 768px) {
   .mainH {
     height: 500px; } }
+
+#listaRangos {
+  background-color: whitesmoke;
+  border-style: double;
+  border-color: powderblue;
+  border-width: 10px;
+  border-radius: 20px; }
+
+#marines {
+  margin: 10% 8%;
+  background-color: whitesmoke;
+  border-style: double;
+  border-color: powderblue;
+  border-width: 10px;
+  border-radius: 20px; }
+
+#rangosMarine {
+  width: 100%; }
+
+.marineBtn {
+  min-height: 120px; }
+
+.marineCard {
+  width: 280px; }
+
+.marineList div {
+  min-width: 280px; }
 
 footer {
   display: flex;
