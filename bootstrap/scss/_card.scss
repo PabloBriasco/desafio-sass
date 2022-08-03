@@ -176,6 +176,7 @@
 //
 
 .card-group {
+  max-width: 300px;
   // The child selector allows nested `.card` within `.card-group`
   // to display properly.
   > .card {

@@ -2823,20 +2823,16 @@ textarea.form-control-lg {
 
 .card-group {
   max-width: 300px; }
-  .card-group > .card {
-    max-width: 300px;
+  .card-group > .card {    
     margin-bottom: var(--bs-card-group-margin); }
   @media (min-width: 576px) {
-    .card-group {
-      max-width: 300px;
+    .card-group {      
       display: flex;
       flex-flow: row wrap; }
       .card-group > .card {
         flex: 1 0 0%;
-        margin-bottom: 0;
-        max-width: 300px; }
-        .card-group > .card + .card {
-          max-width: 300px;
+        margin-bottom: 0; }
+        .card-group > .card + .card {          
           margin-left: 0;
           border-left: 0; }
         .card-group > .card:not(:last-child) {

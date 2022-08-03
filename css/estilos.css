@@ -258,8 +258,20 @@ h1 {
     border-radius: 20px;
     margin: 0; }
 
-.card-group {
-  max-width: 300px; }
+#construccion {
+  margin: 4%;
+  border-radius: 20px;
+  border-style: groove;
+  background-color: whitesmoke;
+  align-items: center; }
+  #construccion img {
+    height: 100px;
+    min-width: 100px;
+    border-radius: 20px; }
+
+@media screen and (max-width: 768px) {
+  .mainH {
+    height: 500px; } }
 
 footer {
   display: flex;
@@ -269,3 +281,6 @@ footer {
   border-radius: 20px; }
   footer p {
     padding-left: 5px; }
+
+.footerH {
+  position: absolute; }
