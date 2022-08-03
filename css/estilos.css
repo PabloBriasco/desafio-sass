@@ -177,7 +177,11 @@ h1 {
 @media screen and (max-width: 630px) {
   .navList {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr; } }
+    grid-template-rows: 1fr 1fr; }
+  .bootNav {
+    min-width: 280px;
+    margin-left: 0;
+    margin-right: 0; } }
 
 @media screen and (max-width: 531px) {
   .navList {
@@ -238,6 +242,24 @@ h1 {
 @media screen and (max-width: 531px) {
   #sinopsis {
     margin: 0; } }
+
+#mugis p span {
+  text-decoration: underline; }
+
+.mugiCard {
+  font-family: Libre Baskerville, serif;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  width: 18rem; }
+  .mugiCard img {
+    border-radius: 20px;
+    margin: 0; }
+
+.card-group {
+  max-width: 300px; }
 
 footer {
   display: flex;

@@ -67,6 +67,14 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr; 
     }
+
+    // Display del Nav para páginas que utilicen Bootstrap Grid
+
+    .bootNav {
+        min-width: 280px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 531px) {
