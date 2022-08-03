@@ -311,6 +311,28 @@ h1 {
 .marineList div {
   min-width: 280px; }
 
+.yonkoIntro, #yonko2, #shichibukai {
+  margin: 4%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white; }
+
+#yonko2 {
+  border: orange double; }
+  #yonko2 div {
+    padding: 5%; }
+    #yonko2 div img {
+      max-width: 100%;
+      border-radius: 20px; }
+
+.estiloFlexColumn {
+  display: flex;
+  flex-direction: column; }
+
+.accordion img {
+  max-width: 260px; }
+
 footer {
   display: flex;
   align-items: center;

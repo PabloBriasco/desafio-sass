@@ -78,10 +78,17 @@
     outline: 0;
     box-shadow: var(--#{$prefix}accordion-btn-focus-box-shadow);
   }
+
+  border-radius: 20px;    
+  background-color: black;    
+  color: white;
 }
 
 .accordion-header {
   margin-bottom: 0;
+  border-radius: 20px;    
+  background-color: black;    
+  color: white;
 }
 
 .accordion-item {
@@ -115,10 +122,16 @@
       @include border-bottom-radius(var(--#{$prefix}accordion-border-radius));
     }
   }
+  border-radius: 20px;    
+  background-color: black;
+  border: orange double;
+  color: white;
 }
 
 .accordion-body {
   padding: var(--#{$prefix}accordion-body-padding-y) var(--#{$prefix}accordion-body-padding-x);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
