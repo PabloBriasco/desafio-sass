@@ -1,0 +1,12 @@
+// Box sizing
+
+* {
+    box-sizing: border-box;
+  }
+
+// Estilos de link
+
+a:link, a:visited, a:active {
+    color: $links;
+    text-decoration: none;
+}

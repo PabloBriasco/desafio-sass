@@ -1,0 +1,79 @@
+// Estilo del Nav
+
+.navList {
+    height: 100%;
+    align-items: center;
+    margin: $margenNav;
+    background-color: $backgroundWS;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    opacity: $opac80;    
+    border-radius: $radio10;  
+    padding: 0;  
+
+    li {
+        text-align: center;
+        padding: $paddingNavLi;
+        font-weight: $grosor600;
+        font-style: $fuenteItalic;
+        font-family: $fuenteBasker;
+        font-size: $fuenteGrande;
+        border-width: 5px;; 
+        margin: 0;
+        transition-duration: 0.5s;
+        border-radius: 20px;   
+        
+        &:hover {
+            background-color: $colorHoverNav;
+            transform: scale(1.2);
+            opacity: $opac100;
+        }
+    }
+}
+
+@media screen and (max-width: 935px){
+
+    /* modificador del Nav */
+
+    .navList {
+        margin: $margenNav*0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navList {
+        height: auto;
+        margin-left: 12%;
+        margin-right: 11%;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;     
+        
+        li {
+            padding: $paddingNavLi/2;
+            font-size: $fuenteGrande;        
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .navList {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr; 
+    }
+}
+
+@media screen and (max-width: 531px) {
+
+    .navList {        
+        grid-template-columns: 1fr 1fr;  
+        grid-template-rows: 1fr 1fr fr;  
+
+        li {
+            font-size: $fuenteMasChica;        
+        }        
+    }  
+}

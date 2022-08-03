@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; }
+
+a:link, a:visited, a:active {
+  color: red;
+  text-decoration: none; }
+
+/* Fuentes de texto */
+.fuente1 {
+  font-family: Libre Baskerville, serif;
+  font-size: larger; }
+
+.fuente2 {
+  font-family: "Playfair Display", serif;
+  font-size: 200%;
+  text-align: center; }
+
+.fuente3 {
+  font-family: Libre Baskerville, serif;
+  font-size: smaller; }
+
+.fuente4 {
+  -webkit-text-stroke: 2px #C78F95;
+  font-family: "Playfair Display", serif;
+  font-size: 600%;
+  color: #AD3319;
+  text-align: center; }
+
+.fuente5 {
+  font-family: Libre Baskerville, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: forestgreen; }
+
+.fuente6 {
+  font-family: Libre Baskerville, serif;
+  font-size: larger;
+  line-height: 50px;
+  letter-spacing: 1px; }
+
+.fuente7 {
+  font-family: "Playfair Display", serif;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: underline; }
